@@ -25,7 +25,7 @@ class Library():
 
     def get_connect(self):
 
-        self.connect = sqlite3.connect("kütüphane.db")
+        self.connect = sqlite3.connect("library.db")
 
         self.cursor = self.connect.cursor()
 
